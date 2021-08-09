@@ -5,8 +5,8 @@ $server_key = "SB-Mid-server-hRnRHqkhsAJKbJDfikb_Kq4q";
 $is_production = false;
 
 $api_url = $is_production ? 
-  'https://app.midtrans.com/snap/v1/transactions' : 
-  'https://app.sandbox.midtrans.com/snap/v1/transactions';
+    'https://app.midtrans.com/snap/v1/transactions' :
+    'https://app.sandbox.midtrans.com/snap/v2/vtweb';
 
 
 // Check if request doesn't contains `/charge` in the url/path, display 404
