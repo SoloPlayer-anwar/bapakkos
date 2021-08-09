@@ -6,7 +6,7 @@ $is_production = false;
 
 $api_url = $is_production ? 
     'https://app.midtrans.com/snap/v1/transactions' :
-    'https://app.sandbox.midtrans.com/snap/v2/vtweb';
+    'https://app.sandbox.midtrans.com/snap/v1/transactions';
 
 
 // Check if request doesn't contains `/charge` in the url/path, display 404
